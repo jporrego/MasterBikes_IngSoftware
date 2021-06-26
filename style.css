@@ -44,6 +44,7 @@ body {
     grid-template-columns: max-content 1fr max-content;
     height: 8rem;
     box-shadow: 0px 5px 10px rgba(0, 0, 0, .1);
+    background-color: var(--color-yellow);
 }
 
 .navbar__logo {
@@ -102,11 +103,10 @@ body {
 }
 
 .navbar_cart__counter {
-    background-color: red;
+    background-color: white;
     padding: .3px 7px;
     border-radius: 50rem;
     font-weight: 600;
-    background-color: var(--color-yellow);
     position: absolute;
     margin-left: 3rem;
     font-size: 1.7rem;
@@ -122,18 +122,17 @@ body {
 }
 
 .landing__imgs img {
+    width: 100%;
     transition: all .15s ease-out;
     cursor: pointer;
-    background-size: auto;
 }
 
 .productos {
-    background-color: #1f1d2b;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(40rem, 1fr));
     justify-items: center;
-    padding: 1rem;
-    gap: 2rem;
+    padding: 5rem 0rem;
+    gap: 3rem;
 }
 
 .producto {
@@ -146,6 +145,7 @@ body {
     background-color: var(--color-white);
     font-weight: 600;
     font-size: 1.8rem;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, .25);
 }
 
 .producto__img {
@@ -210,4 +210,23 @@ body {
     cursor: pointer;
     grid-column: 2/-1;
     user-select: none;
+}
+
+.pie {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    height: 10rem;
+    padding: 1rem;
+    background-color: var(--color-yellow);
+}
+
+.pie img {
+    height: 5rem;
+    margin-left: 2rem;
+}
+
+.pie__info {
+    margin-right: 5rem;
+    font-weight: 600;
 }

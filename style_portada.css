@@ -1,15 +1,1 @@
-.landing {
-    text-align: center;
-    padding-top: 0rem;
-    width: 100vw;
-    max-width: 150rem;
-    margin: 0 auto;
-}
 
-.landing__imgs img {
-    width: 100%;
-    transition: all .15s ease-out;
-    cursor: pointer;
-}
-
-@media only screen and (max-width: 480px) {}
