@@ -129,7 +129,7 @@ body {
 
 .productos {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(40rem, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
     justify-items: center;
     padding: 5rem 0rem;
     gap: 3rem;
