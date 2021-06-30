@@ -8,3 +8,4 @@ function añadirACarrito(e) {
     let numero = parseInt(counter.innerHTML);
     counter.innerHTML = numero + 1;
 }
+

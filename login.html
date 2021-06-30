@@ -35,24 +35,32 @@
         <div class="login">
             <div class="login__form">
                 <div class="login__form__img">
-                    <div class="login__form__img__title">MasterBikes</div>
+                    <div class="login__form__img__title">Bienvenido</div>
                 </div>
                 <div class="login__form__inputs">
                     <form action="#">
                         <div class="login__form__inputs__title">Inicia Sesión</div>
                         <div class="input_formulario">
                             <label for="email">Email</label>
-                            <input type="text" name="email">
+                            <input type="email" name="email" id="email" required>
                         </div>
                         <div class="input_formulario">
                             <label for="contraseña">Contraseña</label>
-                            <input type="text" name="contraseña">
+                            <input type="password" name="contraseña" id="contraseña" required>
                         </div>
-                        <div>Iniciar</div>
-                        <div>o</div>
-                        <div><img src=""> Iniciar con Google</div>
+                        <div class="opciones_inicio">
+                            <button class="btn_iniciar" ty>Ingresar</button>
+                            <div>o</div>
+                            <div class="logo_google"><img src="./img/google.png"> Ingresar con Google</div>
+                        </div>
+                        <div class="error_modal">
+                            Datos incorrectos...
+                        </div>
                     </form>
                 </div>
+            </div>
+            <div class="loader">
+                <img src="./img/loader.gif" alt="loader">
             </div>
         </div>
 
@@ -70,7 +78,7 @@
             </div>
         </div>
     </div>
-    <script src="app.js" async defer></script>
+    <script src="login.js" async defer></script>
 </body>
 
 </html>
