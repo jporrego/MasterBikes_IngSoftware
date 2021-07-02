@@ -131,6 +131,14 @@ button, input[type="submit"], input[type="reset"] {
     font-size: 1.4rem;
 }
 
+.registrate u {
+    cursor: pointer;
+}
+
+.registrate u:hover {
+    color: rgb(139, 139, 139);
+}
+
 .loader {
     display: none;
 }
