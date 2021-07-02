@@ -42,7 +42,7 @@
 
 .login__form__inputs__title {
     font-size: 2rem;
-    margin-top: 4rem;
+    margin-top: 2rem;
     margin-bottom: 5rem;
     text-align: center;
 }
@@ -120,10 +120,15 @@ button, input[type="submit"], input[type="reset"] {
     align-items: center;
     font-size: 1.4rem;
     cursor: pointer;
+    margin-bottom: 1rem;
 }
 
 .logo_google:hover {
     color: rgb(139, 139, 139);
+}
+
+.registrate {
+    font-size: 1.4rem;
 }
 
 .loader {
